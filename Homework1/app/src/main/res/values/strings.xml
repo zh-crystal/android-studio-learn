@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="username_tip">用户名：</string>
+    <string name="password_tip">密码：</string>
+    <string name="remember">记住密码</string>
+    <string name="sign">注册</string>
+    <string name="exit">退出</string>
+    <string name="logo">../mipmap-xhdpi/logo.jpg</string>
+</resources>

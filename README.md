@@ -26,7 +26,7 @@
         + 记住密码单选按钮 -> RadioButton
         + 注册和退出按钮 -> Button
     + UI截图
-    ![UI截图](./screenshot/ui.png)
+    ![UI截图](./screenshot/chapter1/ui.png)
     + 交互
         + 启动日志记录启动信息
         + 可输入用户名和密码
@@ -34,5 +34,33 @@
         + 点击注册日志记录注册信息
         + 点击退出日志记录退出信息并退出程序
     + 日志记录截图
-    ![日志截图](./screenshot/log.png)
+    ![日志截图](./screenshot/chapter1/log.png)
 
+## 二、homework2
+> 2020-03-23
+### 任务要求
++ Logcat在屏幕旋转的时候 #onStop() #onDestroy()会展示出来，但UI界面我们看不到，在今天课程基础上想办法补全它，让其跟logcat的展示一样
++ 一个抖音笔试题：统计页面所有view的个数     
+    + ViewGroup中的API ： getChildCount()   getChildAt()
++ 实现一个类似抖音消息页面，并且点击每个recycleview的item,能够跳转到一个新的界面，并且在新的页面显示出他是第几个item
+### 任务实现
++ MainActivity界面UI截图
+![activity_main.xml](./screenshot/chapter2/main.png)
++ 任务1
+    + 初次进入UI截图
+    ![exe1_01.png](./screenshot/chapter2/exe1_01.png)
+    + 测试屏幕选转
+    ![exe1_02.png](./screenshot/chapter2/exe1_02.png)
+    + 重置日志
+    ![exe1_03.png](./screenshot/chapter2/exe1_03.png)
++ 任务2
+> 页面共5个button，5个textview（其中一个用来显示个数），1个viewgroup（constraint-layout），共计11个view。
+
+![exe2.png](./screenshot/chapter2/exe2.png)
++ 任务3
+    + 消息页面
+    ![tips.xml](./screenshot/chapter2/exe3_01.png)
+    + item跳转页面
+    ![it.xml](./screenshot/chapter2/exe3_02.png)
+    + 仿照`homework-debug.apk`实现简单的自动回复
+    ![auto.png](./screenshot/chapter2/exe3_03.png)

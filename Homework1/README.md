@@ -22,4 +22,4 @@
 > 主要工作是添加三个按钮的onClickListener方法，将交互信息通过logd打印出来。
 
 ### 打包的apk
-+ app-debug.apk
++ `app-debug.apk`
